@@ -5,12 +5,12 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const images = [
-  "/images/f01.jpg", 
-  "/images/f04.jpg", 
-  "/images/f08.jpg", 
-  "/images/f09.jpg", 
-  "/images/f10.jpg", 
-  "/images/f11.jpg", 
+  "/images/f01.JPG", 
+  "/images/f04.JPG", 
+  "/images/f08.JPG", 
+  "/images/f09.JPG", 
+  "/images/f10.JPG", 
+  "/images/f11.JPG", 
 ];
 
 export default function EkhayaGallery() {
@@ -74,7 +74,7 @@ export default function EkhayaGallery() {
                     src={img}
                     alt={`Ekhaya Meat Product ${i + 1}`}
                     width={400}
-                    height={256} // Fixed aspect ratio
+                    height={256} 
                     className="object-cover w-full h-full rounded-xl hover:scale-110 transition-all duration-700"
                   />
                 </motion.div>
